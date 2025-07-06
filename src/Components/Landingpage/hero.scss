@@ -667,6 +667,13 @@
 
 
     @media only screen and (min-width: 1024px) and (max-width: 1366px) {
-        // Styles for iPad Pro in portrait orientation
+        .hero-text h1 {
+            color: #232057;
+            font-family: poppins;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
       }
       
