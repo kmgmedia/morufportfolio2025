@@ -10,6 +10,7 @@
     --bs-gutter-x: 0 !important;
     justify-content: space-between;
     padding: 0% 5%;
+    min-height: 600;
     }
 
     .hey {
@@ -480,7 +481,7 @@
 
     // /////////////////////////////////////////////////////////////////////
 
-    @media screen and (max-width: 992px) {
+    @media (max-width: 992px) {
     .row {
         justify-content: space-between;
         padding: 0% 2%;
@@ -510,8 +511,8 @@
         display: none;
     }
 
+    
     .hero-img1 img {
-        width: 20rem;
         padding-bottom: 1.5rem;
     }
 
@@ -618,7 +619,6 @@
 
     .hey {
         width: 200%;
-        padding-top: 10rem;
     }
 
     .all-ellipse {
@@ -645,6 +645,11 @@
 
     // }
     @media screen and (max-width: 768px) {
+
+        .hero-text h1 {
+            font-size: 28px;
+        }
+       
     .hero-image img {
         padding-top: 3rem;
         padding-bottom: 2rem;
@@ -659,3 +664,9 @@
         display: none;
     }
     }
+
+
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+        // Styles for iPad Pro in portrait orientation
+      }
+      
