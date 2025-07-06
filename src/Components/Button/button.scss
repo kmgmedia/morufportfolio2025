@@ -1,0 +1,118 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color: #F8991D;
+$secondery-color: #232057;
+$secondery-color-2: #272829;
+
+
+
+.kmg-folio-btn {
+    text-align: center;
+    font-family: $font-stack;
+    color: $secondery-color-2;
+    font-size: 16px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: normal;
+    width: 165px;
+    height: 50px;
+    padding: 10px 18px;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid $secondery-color-2(168, 168, 168, 0.6);
+    background: none;
+
+    transition: transform 0.2s ease;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.20);
+    position: relative;
+    }
+
+
+    .kmg-folio-btn:hover {
+        background-color: $secondery-color-2;
+        color: floralwhite;
+        box-shadow: none;
+    }
+
+    
+    // Button animation splash
+
+    .kmg-folio-btn:active {
+        transform: scale(0.96);
+    }
+
+    .kmg-folio-btn::before,
+    .kmg-folio-btn::after{
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        height: 100%;
+        width: 150%;
+        z-index: -1;
+        background-repeat: no-repeat;
+    }
+
+    .kmg-folio-btn.animate::before {
+        top: -70%;
+        background-image: radial-gradient(circle, #232057 20%, transparent 20%),
+        radial-gradient(circle, transparent 20%, #232057 20%, transparent 30%),
+        radial-gradient(circle, #232057 20%, transparent 20%),
+        radial-gradient(circle, transparent 10%, #232057 15%, transparent 20%),
+        radial-gradient(circle, #232057 20%, transparent 20%),
+        radial-gradient(circle, #232057 20%, transparent 20%),
+        radial-gradient(circle, #232057 20%, transparent 20%),
+        radial-gradient(circle, #232057 20%, transparent 20%);
+        background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+        18% 18%;
+        background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+        40% 90%, 55% 90%, 70% 90%;
+        animation: topBubbles 0.6s ease-in-out forwards;
+    }
+    @keyframes topBubbles {
+        50% {
+            background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+            50% 50%, 65% 20%, 90% 30%;
+        }
+        100% { 
+            background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+            50% 40%, 65% 10%, 90% 20%;
+            background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+        }
+    }
+
+    .kmg-folio-btn.animate::after {
+        bottom: -70%;
+        background-image: radial-gradient(circle, #232057 20%, transparent 20%),
+        radial-gradient(circle, transparent 10%, #232057 15%, transparent 20%),
+        radial-gradient(circle, #232057 20%, transparent 20%),
+        radial-gradient(circle, #232057 20%, transparent 20%),
+        radial-gradient(circle, #232057 20%, transparent 20%),
+        radial-gradient(circle, #232057 20%, transparent 20%),
+        radial-gradient(circle, #232057 20%, transparent 20%);
+        background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+        background-position: 10% 0%, 30% 10%, 55% 0%, 70% 0%, 85% 0%, 70% 0%, 70% 0%;
+        animation: bottomBubbles 0.6s ease-in-out forwards;
+    }
+
+    @keyframes bottomBubbles {
+        50% {
+            background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+            105% 0%;
+        }
+        100% {
+            background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+            110% 10%;
+            background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+        }
+    }
+
+
+    @media screen and (max-width: 767px) {
+        .kmg-folio-btn.animate::before,
+        .kmg-folio-btn.animate::after {
+          animation: none !important;
+          background-image: none !important;
+        }
+      }

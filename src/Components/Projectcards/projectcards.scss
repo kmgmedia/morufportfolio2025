@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: poppins, Arial Helvetica sans-serif sans-serif sans-serif, ;
+    src: url();
+}
+
+@font-face {
+    font-family: ('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+}
+
+
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color: #f8991d;
+$secondery-color: #232057;
+$secondery-color-2: #272829;
+
+
+
+// All this page styling is been done from  HERE
+    // ANY CORRECTIONS ARE TO BE MADE FROM HERE AND ITS WILL CHANGE
+    // ALL OTHER WEB PAGE DESIGNS TOO. BE CAREFUL.
+
+
+
+.projectcards-1 h4 {
+  font-size: 26px;
+  color: $secondery-color-2;
+  font-family: Lato;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+
+.projectcards-0 p {
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+
+
+/* Media query for small screens and downward */
+
+@media (max-width: 767px) {
+
+  .projectcards-1 h4 {
+    font-size: 25px;
+  }
+
+
+}
