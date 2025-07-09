@@ -37,7 +37,7 @@ const Kmgfoliobigpage = () => {
                 data-aos-duration="1800"
                 className="mackmg-img"
               >
-                <div className="pt-5">
+                <div className="">
                   <img
                     className="heros-image1"
                     src="https://res.cloudinary.com/ds2h3iwys/image/upload/v1751226534/Moruf%20Adebola%20Portfolio%202025/Kmgfoliobigpage/Macpckmgfoliobig_akfmm6.png"
