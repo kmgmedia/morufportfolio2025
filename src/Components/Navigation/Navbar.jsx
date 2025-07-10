@@ -21,8 +21,8 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 className="nav-item-2"
               >
-                <FaDownload style={{ marginRight: "8px" }} />
-                View Resume
+                {/* <FaDownload style={{ marginRight: "8px" }} /> */}
+                UI/UX Resume
               </a>
             </div>
           </nav>

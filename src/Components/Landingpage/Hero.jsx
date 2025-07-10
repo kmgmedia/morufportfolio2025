@@ -44,9 +44,9 @@
                   </div>
                   <div className="st-btn">
                     <HashLink smooth to="/#projects" className="portfolio">
-                      Projects <i></i>
+                      UI/UX Portfolio <i></i>
                     </HashLink>
-                    <button className="hireme">Hire me</button>
+                    <button className="hireme">Dev Portfolio</button>
                   </div>
                 </div>
                 <div className="col-lg-5 col-md-5">
