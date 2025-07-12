@@ -770,7 +770,7 @@ $line-active-color: #434343;
 @media (max-width: 1366px) {
 
     .top {
-        padding-top: 100px;
+        padding-top: 100px !important;
     }
     .section-center {
         position: absolute;
