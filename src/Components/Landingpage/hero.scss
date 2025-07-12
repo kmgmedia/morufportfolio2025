@@ -706,7 +706,7 @@ $line-active-color: #434343;
 
   .section-center {
     position: absolute;
-    top: 45%;
+    top: 45% !important;
     left: 50%;
     z-index: 10;
     transform: translate(-50%, -50%);
