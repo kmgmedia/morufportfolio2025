@@ -695,10 +695,12 @@ $line-active-color: #434343;
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+
+
   .hero-text h1 {
     color: #232057;
     font-family: poppins;
-    font-size: 30px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -766,9 +768,13 @@ $line-active-color: #434343;
 }
 
 @media (max-width: 1366px) {
+
+    .top {
+        padding-top: 100px;
+    }
     .section-center {
         position: absolute;
-        top: 42% !important;
+        top: 40% !important;
         left: 50%;
         z-index: 10;
         transform: translate(-50%, -50%);
