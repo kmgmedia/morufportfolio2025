@@ -502,9 +502,7 @@ $line-active-color: #434343;
   .hero-text h1 {
     font-size: 25px;
   }
-  // .hero-text br {
-  //     display: none;
-  // }
+
 
   .hero-image img {
     padding-right: 0rem;
@@ -604,7 +602,7 @@ $line-active-color: #434343;
   @media only screen and (min-width: 316px) and (max-width: 414px) {
     .portfolio,
     .hireme {
-      font-size: 12px;
+      font-size: 10px;
       width: 130px;
     }
 
@@ -655,22 +653,9 @@ $line-active-color: #434343;
     padding-left: 20rem;
   }
 
-  .st-btn {
-    display: none;
-  }
-
-  // .hero-image img {
-  //     padding-top: 3rem;
-  //     padding-bottom: 2rem;
-  // }
-
   .hero-image-text br {
     display: none;
   }
-
-  // .hero-image-text {
-  //     width: 45rem;
-  // }
 }
 
 // }
@@ -693,6 +678,7 @@ $line-active-color: #434343;
     display: none;
   }
 }
+
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
 
@@ -784,7 +770,7 @@ $line-active-color: #434343;
   color: $secondery-color;
   background: rgba(248, 153, 29, 0.5);
   font-family: poppins;
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -800,7 +786,7 @@ $line-active-color: #434343;
   color: $secondery-color;
   // background: rgba(248, 153, 29, 0.50);
   font-family: poppins;
-  font-size: 14px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
