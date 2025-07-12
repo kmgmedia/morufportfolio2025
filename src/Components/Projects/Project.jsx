@@ -180,7 +180,6 @@
                   <h5>PetHome</h5>
                   <div className="skills">
                     <p className="skills-btn">UI/UX</p>
-                    <p className="skills-btn">Info Architechture</p>
                     <p className="skills-btn"> User Flow</p>
                     <p className="skills-btn"> User Interviews</p>
                   </div>
@@ -265,7 +264,6 @@
                   <div className="skills">
                     <p className="skills-btn">UI/UX</p>
                     <p className="skills-btn"> User Interviews</p>
-                    <p className="skills-btn">Info Architechture</p>
                     <p className="skills-btn"> User Flow</p>
                   </div>
                 </div>
@@ -346,10 +344,9 @@
                 <div className="kmg-folio-text-1">
                   <h5>SidonPay (by BoundlessPay)</h5>
                   <div className="skills">
-                    <p className="skills-btn">UI/UX</p>
+                    <p className="skills-btn">UI/UX Design</p>
                     <p className="skills-btn">Info Architechture</p>
                     <p className="skills-btn"> User Flow</p>
-                    <p className="skills-btn"> User Interviews</p>
                   </div>
                 </div>
                 <div className="kmg-folio-text-2">
