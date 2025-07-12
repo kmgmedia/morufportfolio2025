@@ -104,18 +104,17 @@ const Pethomefolio = () => {
             <div class="col-sm-12 col-md-12 col-lg-2">
               <div className="aboutmecont-5">
                 <h4>My Role</h4>
-                <div className="kmg-folio-text-23">
-                  <p>- User Research</p>
+                <div className="kmg-folio-text-23 pt-3">
+                  <p>- UI/UX Design</p>
                   <p>- Brand Design</p>
                   <p>- Wireframe</p>
-                  <p>- Interaction Design</p>
                 </div>
               </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-2">
               <div className="aboutmecont-5 pt-2">
                 <h4>Tools</h4>
-                <div className="kmg-folio-text-23">
+                <div className="kmg-folio-text-23 pt-3">
                   <p>- Figma</p>
                   <p>- Figjam</p>
                   <p>- Miro</p>
@@ -126,7 +125,7 @@ const Pethomefolio = () => {
             <div class="col-sm-12 col-md-12 col-lg-2">
               <div className="aboutmecont-5 pt-2">
                 <h4>Timeline</h4>
-                <div className="kmg-folio-text-23">
+                <div className="kmg-folio-text-23 pt-3">
                   <p>- 5 Months</p>
                 </div>
               </div>

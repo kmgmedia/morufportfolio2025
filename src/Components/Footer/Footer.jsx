@@ -13,9 +13,8 @@ const Footer = () => {
                 <span className="line2"></span>
                 <h3>MORUF ADEBOLA</h3>
                 <p>
-                  A product designer with years of experience, currently shaping
-                  in coding the future, building digital worlds products within
-                  energetic and dynamic cross-functional settings.
+                  Product Designer blending design and code to craft digital
+                  experiences within fast-moving teams.
                 </p>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-1"></div>
@@ -65,8 +64,9 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-
-              <p>Copyright© 2025 Moruf Adebola, All Rights reserved.</p>
+              <div className='copyright'>
+                <p>Copyright© 2025 Moruf Adebola, All Rights reserved.</p>
+              </div>
               <div class="col-sm-12 col-md-12 col-lg-1"></div>
             </div>
           </div>

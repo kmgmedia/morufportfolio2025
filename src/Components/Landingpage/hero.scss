@@ -700,5 +700,18 @@
             font-weight: 700;
             line-height: normal;
         }
+
+        .section-center {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            z-index: 10;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+            -webkit-transition: all 500ms linear;
+            transition: all 500ms linear;
+            }
       }
       

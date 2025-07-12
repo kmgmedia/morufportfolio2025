@@ -120,6 +120,24 @@ padding-bottom: 65px;
       transition: all 0.3s ease;
     }
   }
+
+  .skills  {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: poppins, sans-serif;
+    font-size: 12px;
+    padding-top: 8px;
+    font-weight: 400;
+    gap: 10px;
+    justify-content: left;
+    margin-top: 10px;
+  }
+
+  .skills-btn {
+    padding: 4px 7px;
+    background-color: #ecdbc4;
+    border-radius: 12px;
+  }
   
   .bottom-btn::before {
     content: "";
@@ -181,7 +199,7 @@ padding-bottom: 65px;
 }
 
 .projectme p {
-    color: $secondery-color-2;
+color: $secondery-color-2;
 text-align: center;
 font-family: Poppins;
 font-size: 18px;
@@ -212,7 +230,6 @@ padding-top: 1rem;
 
 .kmg-folio-text-23 {
     color: var(--grey-500, #5B5151);
-
 font-family: Poppins;
 font-size: 16px;
 font-style: normal;
@@ -228,7 +245,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-padding-top: 2rem;
+padding-top: 1rem;
 }
 
 .kmg-folio-btn {
@@ -289,6 +306,24 @@ padding-top: 2rem;
     .kmg-folio-img1 img {
         padding-top: 5rem;
     }
+
+    .check-body h3 {
+        display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    // gap: 44px;
+    color: #292927;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 5px;
+    line-height: normal;
+    padding-bottom: 50px;
+    }
+
+    
     
 
 }
@@ -342,7 +377,95 @@ padding-top: 2rem;
 
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+
+    .hero-p br {
+        display: none;
+    }
+
+    .project-1 {
+        padding-top: 4rem;
+    }
     
+    .kmg-folio-text-23 {
+        color: var(--grey-500, #5B5151);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+        .kmg-folio-text-23 br {
+            display: none;
+        }
+
+        .kmg-folio-img img{
+            width: 115%;
+            height: 110%;
+        }
+
+        .card-boder {
+            display: flex;
+        width: 200px;
+        padding: 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        background: #FFF;
+        box-shadow: 2px 2px 18px 0px rgba(0, 0, 0, 0.16);
+        }
+
+        .check-body h3 {
+            display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        // gap: 44px;
+        color: #292927;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        padding-left: 80px;
+        line-height: normal;
+        padding-bottom: 65px;
+        }
+
+        .bottom-btn {
+            position: relative;
+            color: $secondery-color-2;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 17px;
+            font-family: poppins, sans-serif;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            padding: 12px 28px;
+            border-radius: 26px;
+            background: none;
+            overflow: hidden;
+            z-index: 1;
+          
+            // Make sure text and icon stay above the background
+            span,
+            svg {
+              position: relative;
+              z-index: 2;
+              transition: all 0.3s ease;
+            }
+          }
+
+          
+
+
+}
+
+
     
 
 

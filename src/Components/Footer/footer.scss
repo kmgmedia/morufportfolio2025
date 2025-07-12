@@ -18,7 +18,7 @@ $secondery-color-2: #272829;
 
 .line2 {
     display: block;
-    width: 1200.5px;;
+    width: 1100px;
     height: 2px;
     margin: 2px auto;
     background-color: #FFFFFF;
@@ -36,7 +36,7 @@ $secondery-color-2: #272829;
 
 .footer-bold-text h3 {
     padding-bottom: 2rem;
-    padding-top: 4rem;
+    padding-top: 3.6rem;
 }
 
 .footer-bold-text h5 {
@@ -55,6 +55,11 @@ $secondery-color-2: #272829;
     text-decoration: none;
   }
 
+  .copyright {
+    text-align: left;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
 
 
 
@@ -102,3 +107,13 @@ $secondery-color-2: #272829;
     }
 
 }
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+
+    .line2 {
+        width: 750px;
+      }
+}
+
+

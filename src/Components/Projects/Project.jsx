@@ -33,6 +33,62 @@
       
     return (
       <>
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          className="row project-1 pb-5"
+        >
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-10">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-10">
+                <div className="aboutmecont">
+                  <h4>MY STORY</h4>
+
+                  <span className="line"></span>
+                  <div className="kmg-folio-text-1 pt-4">
+                    <h3>My Path into Product Design</h3>
+                  </div>
+                  <div className="kmg-folio-text-23">
+                    <p>
+                      <p>
+                        My journey into product design started with a passion
+                        for creating things that are both functional and
+                        visually appealing. I was drawn to how design solves
+                        real problems and improves user experience. As I
+                        explored UI/UX tools and user behavior, I developed the
+                        ability to create clean, intuitive interfaces.
+                      </p>
+
+                      <p>
+                        As a Product Designer, I’m driven by innovation and
+                        enjoy building meaningful digital experiences. I’ve
+                        worked with private organizations to deliver tailored,
+                        impactful solutions.
+                      </p>
+
+                      <p>
+                        I’m always eager to learn and explore new creative areas
+                        like NFTs and animation to expand my design skills.
+                        Outside work, I love discovering new places and staying
+                        inspired. I’m open to opportunities where I can
+                        contribute, grow, and make a difference.
+                      </p>
+
+                      <span className="skills-bold">
+                        If my skills align with what you’re looking for, feel
+                        free to reach out, I’d love to connect!
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        </div>
+
+        
         <div className="row project-1">
           <div class="col-sm-12 col-md-12 col-lg-1"></div>
           <div class="col-sm-12 col-md-12 col-lg-10">
@@ -79,7 +135,11 @@
               <div class="col-sm-12 col-md-12 col-lg-6">
                 <div className="kmg-folio-text-1">
                   <h5>Kmgfolio</h5>
-                  <p className="">UI/UX</p>
+                  <div className="skills">
+                    <p className="skills-btn">UI/UX</p>
+                    <p className="skills-btn">Info Architechture</p>
+                    <p className="skills-btn"> User Flow</p>
+                  </div>
                 </div>
                 <div className="kmg-folio-text-2">
                   <p>
@@ -118,6 +178,12 @@
               <div className="col-sm-12 col-md-12 col-lg-6">
                 <div className="kmg-folio-text-1">
                   <h5>PetHome</h5>
+                  <div className="skills">
+                    <p className="skills-btn">UI/UX</p>
+                    <p className="skills-btn">Info Architechture</p>
+                    <p className="skills-btn"> User Flow</p>
+                    <p className="skills-btn"> User Interviews</p>
+                  </div>
                 </div>
 
                 <div className="kmg-folio-text-2">
@@ -156,6 +222,11 @@
               <div class="col-sm-12 col-md-12 col-lg-6">
                 <div className="kmg-folio-text-1">
                   <h5>Sickle Cell Foundation Nigeria</h5>
+                  <div className="skills">
+                    <p className="skills-btn">UI/UX</p>
+                    <p className="skills-btn">Info Architechture</p>
+                    <p className="skills-btn"> User Flow</p>
+                  </div>
                 </div>
                 <div className="kmg-folio-text-2">
                   <p>
@@ -191,6 +262,12 @@
               <div class="col-sm-12 col-md-12 col-lg-6">
                 <div className="kmg-folio-text-1">
                   <h5>Smart Home Real Estate</h5>
+                  <div className="skills">
+                    <p className="skills-btn">UI/UX</p>
+                    <p className="skills-btn"> User Interviews</p>
+                    <p className="skills-btn">Info Architechture</p>
+                    <p className="skills-btn"> User Flow</p>
+                  </div>
                 </div>
                 <div className="kmg-folio-text-2">
                   <p>
@@ -227,6 +304,11 @@
               <div class="col-sm-12 col-md-12 col-lg-6">
                 <div className="kmg-folio-text-1">
                   <h5>JOMT Journal</h5>
+                  <div className="skills">
+                    <p className="skills-btn">UI/UX</p>
+                    <p className="skills-btn">Info Architechture</p>
+                    <p className="skills-btn"> User Flow</p>
+                  </div>
                 </div>
                 <div className="kmg-folio-text-2">
                   <p>
@@ -263,6 +345,12 @@
               <div class="col-sm-12 col-md-12 col-lg-6">
                 <div className="kmg-folio-text-1">
                   <h5>SidonPay (by BoundlessPay)</h5>
+                  <div className="skills">
+                    <p className="skills-btn">UI/UX</p>
+                    <p className="skills-btn">Info Architechture</p>
+                    <p className="skills-btn"> User Flow</p>
+                    <p className="skills-btn"> User Interviews</p>
+                  </div>
                 </div>
                 <div className="kmg-folio-text-2">
                   <p>
@@ -291,7 +379,6 @@
               <div class="col-sm-12 col-md-12 col-lg-6">
                 <div className="aboutmecont">
                   <h4>DESIGN-STACK</h4>
-
                   <span className="line"></span>
                   <div className="kmg-folio-text-1 pt-4">
                     <h3>My preferred design stack</h3>
@@ -359,67 +446,12 @@
           </div>
         </div>
 
-        <div
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          className="row project-1 pb-5"
-        >
-          <div class="col-sm-12 col-md-12 col-lg-1"></div>
-          <div class="col-sm-12 col-md-12 col-lg-10">
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-10">
-                <div className="aboutmecont">
-                  <h4>MY STORY</h4>
-
-                  <span className="line"></span>
-                  <div className="kmg-folio-text-1 pt-4">
-                    <h3>My Path into Product Design</h3>
-                  </div>
-                  <div className="kmg-folio-text-23">
-                    <p>
-                      <p>
-                        My journey into product design started with a passion
-                        for creating things that are both functional and
-                        visually appealing. I was drawn to how design solves
-                        real problems and improves user experience. As I
-                        explored UI/UX tools and user behavior, I developed the
-                        ability to create clean, intuitive interfaces.
-                      </p>
-
-                      <p>
-                        As a Product Designer, I’m driven by innovation and
-                        enjoy building meaningful digital experiences. I’ve
-                        worked with private organizations to deliver tailored,
-                        impactful solutions.
-                      </p>
-
-                      <p>
-                        I’m always eager to learn and explore new creative areas
-                        like NFTs and animation to expand my design skills.
-                        Outside work, I love discovering new places and staying
-                        inspired. I’m open to opportunities where I can
-                        contribute, grow, and make a difference.
-                      </p>
-
-                      <span className="skills-bold">
-                        If my skills align with what you’re looking for, feel
-                        free to reach out, I’d love to connect!
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-12 col-lg-1"></div>
-        </div>
-
         <div className="row project pb-5">
           <div class="col-sm-12 col-md-12 col-lg-1"></div>
           <div class="col-sm-12 col-md-12 col-lg-10">
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-10">
-                <div className="aboutmecont">
+                <div className="aboutmecont pt-5">
                   <h4>MY SERVICE</h4>
                   <span className="line"></span>
                   <div className="kmg-folio-text-1 pt-4">
