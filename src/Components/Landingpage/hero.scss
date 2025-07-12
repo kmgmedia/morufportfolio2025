@@ -52,7 +52,7 @@
     border-radius: 40px;
     /* display: flex; */
     border: 2px solid hsla(0, 0%, 44%, 0.137);
-    background: linear-gradient(180deg, #73737318 0%, #70707017 100%);
+    background: linear-gradient(180deg, #948c8c18 0%, #70707017 100%);
     backdrop-filter: blur(10px);
     display: inline-block;
     padding: 1% 1%;
@@ -430,7 +430,7 @@
 
     .switched {
     border-color: #000 !important;
-    background: #8167a9 !important;
+    background: #110a1b !important;
     }
 
     .switched #circle {
@@ -566,7 +566,7 @@
 
     .hireme:hover {
         background-color: inherit;
-        width: 160px;
+        width: 100px;
         color: inherit;
         transition: none;
     }
@@ -593,6 +593,31 @@
         color: inherit;
         transition: none;
     }
+
+
+    @media only screen and (min-width: 316px) and (max-width: 414px) {
+
+        .portfolio, .hireme {
+            font-size: 12px;
+            width: 130px;
+        }
+
+        .hireme:hover {
+            background-color: inherit;
+            width: 100px;
+            color: inherit;
+            transition: none;
+        }
+
+        .hireme:hover {
+            display: none;
+        }
+
+        .st-btn {
+            text-decoration: none;
+        }
+    }
+    
 
     .st-btn {
         border-radius: 40px;
