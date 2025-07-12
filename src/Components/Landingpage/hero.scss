@@ -779,7 +779,7 @@ $line-active-color: #434343;
     }
     .section-center {
         position: absolute;
-        top: 40% !important;
+        top: 30% !important;
         left: 50%;
         z-index: 10;
         transform: translate(-50%, -50%);
@@ -796,6 +796,17 @@ $line-active-color: #434343;
         font-size: 26px !important;
         font-style: normal;
         font-weight: 700;
+        line-height: normal;
+      }
+
+      .hero-p {
+        padding-top: 0rem;
+        padding-bottom: 1rem;
+        color: var(--grey-500, #5b5151);
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
         line-height: normal;
       }
 }
