@@ -771,7 +771,11 @@ $line-active-color: #434343;
 
     .top {
         padding-top: 100px !important;
-        padding-bottom: 120px !important;
+        padding-bottom: 80px !important;
+    }
+
+    .hero-img1 img {
+        width: 90% !important;
     }
     .section-center {
         position: absolute;
@@ -784,5 +788,14 @@ $line-active-color: #434343;
         text-align: center;
         -webkit-transition: all 500ms linear;
         transition: all 500ms linear;
+      }
+
+      .hero-text h1 {
+        color: #232057;
+        font-family: poppins;
+        font-size: 26px !important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
       }
 }
