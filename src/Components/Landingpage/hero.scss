@@ -770,16 +770,52 @@ $line-active-color: #434343;
 @media (max-width: 1366px) {
 
     .top {
-        padding-top: 100px !important;
+        padding-top: 70px !important;
         padding-bottom: 80px !important;
     }
+
+    
 
     .hero-img1 img {
         width: 90% !important;
     }
+
+    .portfolio {
+  color: $secondery-color;
+  background: rgba(248, 153, 29, 0.5);
+  font-family: poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 30px;
+  border: 1px solid #b8b7b7;
+  width: 139px;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hireme {
+  color: $secondery-color;
+  // background: rgba(248, 153, 29, 0.50);
+  font-family: poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 30px;
+  border: 1px solid #b8b7b7;
+  width: 139px;
+  padding: 10px 16px;
+  margin-left: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
     .section-center {
         position: absolute;
-        top: 80% !important;
+        top: 92% !important;
         left: 50%;
         z-index: 10;
         transform: translate(-50%, -50%);
@@ -804,7 +840,7 @@ $line-active-color: #434343;
         padding-bottom: 1rem;
         color: var(--grey-500, #5b5151);
         font-family: Poppins;
-        font-size: 18px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
