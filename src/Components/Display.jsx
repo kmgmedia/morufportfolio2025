@@ -16,7 +16,7 @@ const Display = () => {
         <Route path="/" element={<LandingPage />} />
         <Route path="/Kmgfoliobigpage" element={<Kmgfoliobigpage />} />
         <Route path="/Sicklefolio" element={<Sicklefolio />} />
-        {/* <Route path="/Smarthomefolio" element={<Smarthomefolio />} /> */}
+        <Route path="/Smarthomefolio" element={<Smarthomefolio />} />
         <Route path="/Pethomefolio" element={<Pethomefolio />} />
       </Routes>
     </BrowserRouter>

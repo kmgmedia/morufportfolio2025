@@ -10,20 +10,18 @@ import "aos/dist/aos.css";
 
 import { useEffect } from "react";
 
-
 // All this page styling is been done from PROJECTCARDS Folder
 // ANY CORRECTIONS ARE TO BE MADE FROM THERE AND ITS WILL CHANGE
 // ALL OTHER WEB PAGE DESIGNS TOO. BE CAREFUL.
 
 const Pethomefolio = () => {
-
-   // useEffect
-    useEffect(() => {
-      AOS.init({
-        duration: 1000,
-        once: true,
-      });
-    }, []);
+  // useEffect
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
 
   return (
     <>
@@ -68,20 +66,19 @@ const Pethomefolio = () => {
                 className="kmg-folio-text-1"
               >
                 <Projectcards
-                  title="PetHome helps pet owners easily connect with trusted services
-                                                                    like grooming, adoption, and vet care through a simple and friendly
-                                                                    app."
+                  title="PetHome connects pet owners to trusted grooming,
+                  adoption, and vet services through a simple, friendly app."
                   body="PetHome is a digital platform created to help pet lovers find
-                                                                    and connect with trusted pet care services like adoption, grooming,
-                                                                    pet sitting, and vet support. The goal was to make it easy for users
-                                                                    to discover and book these services while building a friendly and
-                                                                    supportive pet-owner community.
-                                                                    In this project, I handled the full product design process — from
-                                                                    user research and wireframing to UI/UX design and high-fidelity
-                                                                    prototyping. My focus was on creating a smooth and enjoyable
-                                                                    experience for users, whether they’re adopting a pet, booking
-                                                                    a groomer, or reading care tips. The result is a clean, responsive,
-                                                                    and easy-to-use app that reflects the love and trust PetHome aims to offer."
+                  and connect with trusted pet care services like adoption, grooming,
+                  pet sitting, and vet support. The goal was to make it easy for users
+                  to discover and book these services while building a friendly and
+                  supportive pet-owner community.
+                  In this project, I handled the full product design process — from
+                  user research and wireframing to UI/UX design and high-fidelity
+                  prototyping. My focus was on creating a smooth and enjoyable
+                  experience for users, whether they’re adopting a pet, booking
+                  a groomer, or reading care tips. The result is a clean, responsive,
+                  and easy-to-use app that reflects the love and trust PetHome aims to offer."
                 />
               </div>
               <div className="contaa1">

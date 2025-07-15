@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "./hero.scss";
+import Button from "../Button/Button";
 import { Backgroundpattern, Heylogo } from "../../assets";
 import {
   FaLinkedin,
@@ -83,12 +84,6 @@ const Hero = () => {
                     To learn more about current projects and get InTouch, hit
                     the link below.
                   </p>
-                  {/* <div className="icons-all">
-                  <a className="social-icon" href="">
-                    <FaLinkedin /> <FaBehance /> <FaGithub />{" "}
-                    <FaInstagram /> <FaTwitter />
-                  </a>
-                </div> */}
                   <div className="icons-all">
                     <a
                       className="social-icon"
@@ -106,14 +101,6 @@ const Hero = () => {
                     >
                       <FaBehance />
                     </a>
-                    {/* <a
-                    className="social-icon"
-                    href="https://github.com/kmgmedia"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaGithub />
-                  </a> */}
                     <a
                       className="social-icon"
                       href="https://www.instagram.com/kmg_media_/"
@@ -137,6 +124,62 @@ const Hero = () => {
             </div>
           </div>
           <div className="col-lg-1"></div>
+        </div>
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          className="row project-1"
+        >
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-10">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-10">
+                <div className="aboutmecont">
+                  <h4>MY STORY</h4>
+                  <span className="line"></span>
+                  <div className="kmg-folio-text-1 pt-4">
+                    <h3>My Path into Product Design</h3>
+                  </div>
+                  <div className="kmg-folio-text-23">
+                    <p>
+                      <p>
+                        My journey into product design started with a passion
+                        for creating things that are both functional and
+                        visually appealing. I was drawn to how design solves
+                        real problems and improves user experience. As I
+                        explored UI/UX tools and user behavior, I developed the
+                        ability to create clean, intuitive interfaces.
+                      </p>
+
+                      <p>
+                        As a Product Designer, I’m driven by innovation and
+                        enjoy building meaningful digital experiences. I’ve
+                        worked with private organizations to deliver tailored,
+                        impactful solutions.
+                      </p>
+
+                      <p>
+                        I’m always eager to learn and explore new creative areas
+                        like NFTs and animation to expand my design skills.
+                        Outside work, I love discovering new places and staying
+                        inspired. I’m open to opportunities where I can
+                        contribute, grow, and make a difference.
+                      </p>
+                      <span className="skills-bold">
+                        If my skills align with what you’re looking for, feel
+                        free to reach out, I’d love to connect!
+                      </span>
+                    </p>
+
+                    {/* BUTTON FROM BUTTON COMPONENT (AS REUSEABLE COMPONENT) */}
+
+                    <Button link="/contact" label={<div>Contact</div>} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
         </div>
       </div>
     </div>
